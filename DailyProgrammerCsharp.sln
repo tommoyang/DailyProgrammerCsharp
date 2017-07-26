@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyProgrammer", "DailyProgrammerCsharp\DailyProgrammer.csproj", "{C46BC03D-22C2-4ED1-B199-C56D66D5E0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyProgrammerTests", "DailyProgrammerTests\DailyProgrammerTests.csproj", "{4BB0D201-0D84-4742-9AAF-5ACCE9EE3525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46BC03D-22C2-4ED1-B199-C56D66D5E0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46BC03D-22C2-4ED1-B199-C56D66D5E0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46BC03D-22C2-4ED1-B199-C56D66D5E0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46BC03D-22C2-4ED1-B199-C56D66D5E0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB0D201-0D84-4742-9AAF-5ACCE9EE3525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB0D201-0D84-4742-9AAF-5ACCE9EE3525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB0D201-0D84-4742-9AAF-5ACCE9EE3525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB0D201-0D84-4742-9AAF-5ACCE9EE3525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
