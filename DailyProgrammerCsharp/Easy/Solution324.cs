@@ -1,18 +1,45 @@
 ﻿using System;
 
-namespace DailyProgrammerCsharp.Easy324
+namespace DailyProgrammerCsharp.Easy
 {
-    public class Solution
+    public class Solution324 : ISolution
     {
-        static void Main(string[] args)
+        // https://www.reddit.com/r/dailyprogrammer/comments/6nstip/20170717_challenge_324_easy_manual_square_root/
+        public void Run()
         {
             do
             {
-                Console.Write("Precision: ");
-                var precision = int.Parse(Console.ReadLine());
+                int precision;
+                do
+                {
+                    try
+                    {
+                        Console.Write("Precision: ");
+                        precision = int.Parse(Console.ReadLine());
 
-                Console.Write("Input: ");
-                var input = double.Parse(Console.ReadLine());
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                } while (true);
+
+                double input;
+                do
+                {
+                    try
+                    {
+                        Console.Write("Input: ");
+                        input = double.Parse(Console.ReadLine());
+
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                } while (true);
 
                 Console.WriteLine("Output: " + SqRootAndRound(input, precision));
 
