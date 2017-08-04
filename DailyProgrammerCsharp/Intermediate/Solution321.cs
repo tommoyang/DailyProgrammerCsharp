@@ -100,7 +100,9 @@ namespace DailyProgrammerCsharp.Intermediate
 
             for (var i = 0; i < toConvert.Length; i++)
             {
-                intResult[i] = (toConvert[i] * a + b) % 26;
+                Console.WriteLine("start: " + toConvert[i]);
+
+                intResult[i] = (26 - a) * (toConvert[i] - b) % 26;
 
                 Console.WriteLine(intResult[i]);
             }

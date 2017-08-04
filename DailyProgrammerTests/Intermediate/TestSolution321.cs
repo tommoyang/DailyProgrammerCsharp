@@ -42,6 +42,7 @@ namespace DailyProgrammerTests.Intermediate
 
             Console.WriteLine(cipher);
 
+            // 6 15 15 2 1 18
             Assert.AreEqual("foobar", cipher);
         }
 

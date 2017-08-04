@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
+    <Compile Include="Easy\Solution325.cs" />
     <Compile Include="Easy\Solution324.cs" />
     <Compile Include="Intermediate\Solution321.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

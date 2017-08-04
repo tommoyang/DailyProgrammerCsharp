@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\TestSolution325.cs" />
     <Compile Include="Easy\TestSolution324.cs" />
     <Compile Include="Intermediate\TestSolution321.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

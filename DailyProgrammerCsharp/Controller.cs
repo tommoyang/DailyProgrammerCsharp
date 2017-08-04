@@ -63,6 +63,8 @@ namespace DailyProgrammerCsharp
 
                 break;
             } while (true);
+
+            Console.ReadLine();
         }
     }
 }
